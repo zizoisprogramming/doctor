@@ -37,6 +37,7 @@
   },
   "devDependencies": {
     "ajv": "^8.17.1",
-    "ajv-keywords": "^5.1.0"
+    "ajv-keywords": "^5.1.0",
+    "file-loader": "^6.2.0"
   }
 }
