@@ -1,3 +1,7 @@
+@font-face {
+    font-family: 'whisper';
+    src: url('../../Fonts/Whisper-Regular.ttf') format('truetype');
+}
 
 .home {
     display: flex;
@@ -6,8 +10,69 @@
 
 .image {
     width: 100px;
-    margin-left: 500px;
-    margin-top: 100px;
-    width: 400px;
+    margin-left: 200px;
+    margin-right: 250px;
+    margin-top: 150px;
+    width: 500px;
     height: 500px;
+}
+.intro h1, .intro h2 {
+    font-family: 'whisper';
+    text-align: center;
+}
+
+.intro {
+    margin-top: 40px;
+}
+.intro h1{
+    font-size: 100px;
+    margin-left: 50px;  
+    margin-bottom: 0px;
+}
+
+.intro h2{
+    font-size: 50px;
+    margin-top: 60px;
+    margin-bottom: 0px;
+    margin-left: 50px;  
+    margin-right: 20px;
+    width:350px
+}
+
+.display {
+    display: flex;
+    margin-bottom: 0px;
+}
+
+.smile {
+    margin-left: 10px;
+}
+
+.buttons {
+    display: flex;
+
+}
+.contact, .make-appointment {
+    width: 150px;
+    text-align: center;
+    border-radius: 10px;
+    height: 60px;
+    font-size: 20px;
+    background-color: rgb(27, 112, 112);
+    color: black;
+    transition: background-color 0.3s ease;
+}
+
+.contact:hover, .make-appointment:hover {
+    color: white;
+    background-color: rgb(36, 159, 159);
+
+}
+
+.make-appointment {
+    margin-left: 200px;
+}
+
+.contact {
+    margin-left: 150px;
 }
