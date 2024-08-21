@@ -20,7 +20,6 @@ const Home = () => {
                 <h1>Welcome to Dr.Samer's clinic!</h1>
                 <div className="display">
                     <h2>For a beatiful smile</h2>
-                    {/*<img src={smile} className="smile" alt="smile" />*/}
                     <ImageDrawer className="smile"></ImageDrawer>
                 </div>
                 <div className="buttons">

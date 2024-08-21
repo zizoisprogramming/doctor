@@ -6,6 +6,7 @@
 .home {
     display: flex;
     flex-direction: row;
+    background-color: rgba(2, 2, 2, 0.104)  ;
 }
 
 .image {
@@ -19,6 +20,7 @@
 .intro h1, .intro h2 {
     font-family: 'whisper';
     text-align: center;
+    color: rgb(27, 112, 112);
 }
 
 .intro {
