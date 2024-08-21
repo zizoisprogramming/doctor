@@ -7,6 +7,10 @@
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "mysql": "^2.18.1",
+    "nodemon": "^3.1.4",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.26.1",
@@ -41,5 +45,18 @@
     "ajv": "^8.17.1",
     "ajv-keywords": "^5.1.0",
     "file-loader": "^6.2.0"
-  }
+  },
+  "description": "This webapp is for doctor's aid. It enables patient to make an appointments, delete them, contact the doctor, etc.. .",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zizoisprogramming/doctor.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zizoisprogramming/doctor/issues"
+  },
+  "homepage": "https://github.com/zizoisprogramming/doctor#readme"
 }
